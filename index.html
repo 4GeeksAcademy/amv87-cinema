@@ -12,9 +12,20 @@
     
     <!-- Navbar -->
     <div class="container-flex">
-        <ul class="nav nav-tabs bg-secondary" id="myTab" role="tablist">
+        <ul class="nav nav-tabs navbar-expand-lg bg-dark" id="myTab" role="tablist">
+            <div class="container-fluid d-flex flex-row">
+                <a class="navbar-brand active" href="#">Hidden brand</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">logo</button>
+                <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">En Cartel</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="proximos-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="proximos-tab-pane" aria-selected="false">Próximos Estrenos</button>
@@ -37,8 +48,8 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="septimo-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="septimo-tab-pane" aria-selected="false">7AE</button>
             </li>
-            
         </ul>
+        
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
             <div class="tab-pane fade" id="proximos-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
@@ -48,6 +59,8 @@
             <div class="tab-pane fade" id="historia-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
             <div class="tab-pane fade" id="historico-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
             <div class="tab-pane fade" id="septimo-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+        </div>
+        </div>
         </div>
     </div>
 
